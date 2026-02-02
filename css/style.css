@@ -167,7 +167,7 @@ p{
    margin: auto 0;
   }
 
- .section__pic-container img{
+ .section__pic-container .profile-pic{
    border-radius: 50%;
    background-color: rgb(229, 235, 235);
 }  
@@ -256,9 +256,56 @@ p{
 .btn-container{
    gap: 1rem;
 }
+/*About Section*/
 
-.section__pic-container-about{
-   display:flex;
+#about{
+   position: relative;
+}
+
+.about-containers{
+   gap: 2rem;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+}
+
+.about-details-container {
+   justify-content: center;
+   flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+   display: flex;
+}
+
+/*.section__pic-container */.about-pic {
+   border-radius: 2rem; 
+   background-color: rgb(229, 235, 235);
+}
+
+.arrow{
+   position: absolute;
+   right: -5rem;
+   bottom: 2.5rem;
+}
+
+.details-container {
+   padding: 1.5rem;
+   flex: 1;
+   background: white;
+   border-radius: 2rem;
+   border: rgb(53, 53, 53) 0.1rem solid;
+   border-color: rgb(163, 163, 163);
+   text-align: center;
+}
+
+.section-container{
+   display: flex;
+   gap: 4rem;
+   margin: 0 auto;
+   padding-top: 4rem;
+}
+
+.section__pic-container{
    height: 400px;
    width: 400px;
    margin: auto 0;
